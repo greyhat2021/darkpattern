@@ -13,11 +13,19 @@ body {
 }
 
 .result-cards-container {
-  max-width: 1000px;
+  max-width: 1200px;
   display: flex;
   /* flex-wrap: wrap; */
 }
 
+.no-urgency
+{
+  color: lightgreen;
+}
+.urgency
+{
+  color: red;
+}
 .result-card {
   border: 1px solid #555;
   padding: 20px;

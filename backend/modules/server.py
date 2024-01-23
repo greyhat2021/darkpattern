@@ -10,6 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from discount import extract_flipkart_info
 from timer_scarcity import check_timer_changes_within_duration
 from fake_review import analyze_reviews
+from urgency import urgency_check
 
 
 app = Flask(__name__)
@@ -26,8 +27,10 @@ def run_python_code():
         price_info = extract_flipkart_info(product_url)
 
         analysis_result = analyze_reviews(product_url)
+
+        urgency_info = urgency_check(product_url)
        
-        return jsonify({"price_info": price_info, "timer_result": timer_result,"analysis_result":analysis_result})
+        return jsonify({"price_info": price_info, "timer_result": timer_result,"analysis_result":analysis_result,"urgency_info":urgency_info})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

@@ -1,14 +1,15 @@
-
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './Detectpage.css';
 
 function Detectpage() {
     const [productUrl, setProductUrl] = useState('');
+    const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setLoading(true);
 
         try {
             const response = await fetch('http://localhost:7000/run_python_code', {
@@ -25,13 +26,15 @@ function Detectpage() {
 
             const result = await response.json();
 
-            if ('price_info' in result && 'timer_result' in result && 'analysis_result') {
+            if ('price_info' in result && 'timer_result' in result && 'analysis_result' in result) {
                 navigate('/result', { state: result });
             } else {
-                console.error('Error:', 'Price info or timer result not available');
+                console.error('Error:', 'Price info, timer result, or analysis result not available');
             }
         } catch (error) {
             console.error('Error fetching data:', error);
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -61,14 +64,10 @@ function Detectpage() {
                 />
                 <br/>
                 <input type="submit" value="GO" className="submit"/>
-            </form>
+            </form> <br/><br/>
+            {loading && <div className="loading-screen">Loading... Please Wait!</div>}
         </div>
     );
 }
 
 export default Detectpage;
-
-
-
-
-

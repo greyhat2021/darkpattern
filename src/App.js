@@ -13,7 +13,9 @@ function App() {
       <div>
         <nav className='navbar'>
           <Link to="/">HOME</Link>
+          <img src="genuine-kart-high-resolution-logo-transparent.png" width={200} className='img-logo'></img>
           <Link to="/about-project">ABOUT PROJECT</Link>
+
         </nav>
         <Routes>
           <Route path="/" element={<Homepage />} />

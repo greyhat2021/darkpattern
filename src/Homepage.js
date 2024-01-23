@@ -8,16 +8,20 @@ function Homepage() {
     <div>
       <div className="home-container">
         <div className="heading">
-          <h1>FLIPKART DARK PATTERN DETECTOR</h1>
-          <h3>WHAT IS A DARK PATTERN ?</h3>
+          <h1 className="highlightgreen">TRAP TRACKERS</h1>
+          <h4>SUDHARSANA I (TEAM LEAD)</h4>
+          <h4>VISHNU DEEPAN P</h4>
+          <h4>TEJASH DHAKSHIN S</h4>
+          <h4>BALA CHIBI HARIESH B</h4>
+
         </div>
-        <div className="policy-div">
+        {/* <div className="policy-div">
           <p>
             Dark patterns are deceptive design practices in user interfaces or user experiences across platforms.
             These practices aim to mislead or trick users into taking actions they did not originally intend or want to perform.
             These are called wrongful or unethical practices
           </p>
-        </div>
+        </div> */}
         <div className="detect-container">
           <Link to="/detect" className="detect-link">DETECT</Link>
         </div>
