@@ -1,0 +1,72 @@
+/* Resultpage.css */
+
+/* Dark Theme */
+body {
+  background-color: #121212;
+  color: #fff;
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.result-cards-container {
+  max-width: 1000px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.result-card {
+  border: 1px solid #555;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #2d2d2d;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.price-info-card {
+  background-color: #383838;
+  margin: 2%;
+  line-height: 200%;
+}
+
+.timer-info-card {
+  background-color: #383838;
+  margin: 2%;
+  line-height: 200%;
+}
+
+h3 {
+  
+  color: #ffff; 
+  font-size: 1.5em; 
+  margin-bottom: 40px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.highlightRed{
+  color: rgb(246, 111, 111);
+}
+
+.highlightGreen{
+  color: rgb(153, 255, 151);
+}
+
+.highlightGreenH3{
+  color: rgb(153, 255, 151);
+  font-size: larger;
+  font-weight: bolder;
+}

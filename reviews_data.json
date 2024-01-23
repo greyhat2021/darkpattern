@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "User Name": "Sunil Kumar P",
+    "Star Rating": "3",
+    "Title": "Fair",
+    "Review": "The quality of fablic is just satisfactory.  The stapling done for fixing the fabric to wood is very poor. Some of staples has already  loose. The quality is not of duroflex brand. With respect to quality, finish of the product, i think 10K is more.",
+    "Upvote": "82",
+    "Downvote": "12"
+  },
+  {
+    "id": 2,
+    "User Name": "Prince Kumar",
+    "Star Rating": "3",
+    "Title": "Just okay",
+    "Review": "Reclining mechanism is good. Cushion seems good and enough.The only problem I have with it is the poor quality of fabric used. The fabric is rough and causes itching to skin. It ruins the whole experience.",
+    "Upvote": "12",
+    "Downvote": "2"
+  },
+  {
+    "id": 3,
+    "User Name": "Anshuman Mohapatra",
+    "Star Rating": "5",
+    "Title": "Highly recommended",
+    "Review": "Very comfortable to sit..but leg rest should hv been bit long.",
+    "Upvote": "14",
+    "Downvote": "12"
+  },
+  {
+    "id": 4,
+    "User Name": "SURYA NARAYANA",
+    "Star Rating": "5",
+    "Title": "Terrific purchase",
+    "Review": "Excellent",
+    "Upvote": "2",
+    "Downvote": "3"
+  },
+  {
+    "id": 5,
+    "User Name": "Kokkonda Divya",
+    "Star Rating": "3",
+    "Title": "Absolute rubbish!",
+    "Review": "Functioning of the product is not good and foot rest is not getting closed once it gets opened",
+    "Upvote": "29",
+    "Downvote": "6"
+  },
+  {
+    "id": 6,
+    "User Name": "Flipkart Customer",
+    "Star Rating": "3",
+    "Title": "Fair",
+    "Review": "Product after 2months itself,having creaking sounds",
+    "Upvote": "12",
+    "Downvote": "0"
+  },
+  {
+    "id": 7,
+    "User Name": "Abdul Rahman",
+    "Star Rating": "4",
+    "Title": "Worthless",
+    "Review": "I have getting noises when I use it",
+    "Upvote": "11",
+    "Downvote": "0"
+  },
+  {
+    "id": 8,
+    "User Name": "Kalyani Kannappan",
+    "Star Rating": "5",
+    "Title": "Fair",
+    "Review": "Product is OK Not up to the mark (Price)the cloth they Used is Not a fine",
+    "Upvote": "3",
+    "Downvote": "2"
+  },
+  {
+    "id": 9,
+    "User Name": "Flipkart Customer",
+    "Star Rating": "4",
+    "Title": "Unsatisfactory",
+    "Review": "Very bad quality foam and recliner foam is compressed from everywhere . very bad  product.. DO NOT buy duroflex. . Buy from  wakefit , they have much better quality",
+    "Upvote": "2",
+    "Downvote": "1"
+  },
+  {
+    "id": 10,
+    "User Name": "Pratik Das",
+    "Star Rating": "5",
+    "Title": "Good quality product",
+    "Review": "Recliner is very comfortable and one problem is that installation is not done by flipkart.i can do it my self.recliner is good. And very comfortable go for it.",
+    "Upvote": "1",
+    "Downvote": "3"
+  },
+  {
+    "id": 11,
+    "User Name": "Mohit Wood",
+    "Star Rating": "5",
+    "Title": "Super!",
+    "Review": "It's really good",
+    "Upvote": "3",
+    "Downvote": "1"
+  },
+  {
+    "id": 12,
+    "User Name": "Prasad Apple",
+    "Star Rating": "5",
+    "Title": "Mind-blowing purchase",
+    "Review": "Excellent 😊😊😊😊😊😊",
+    "Upvote": "3",
+    "Downvote": "2"
+  },
+  {
+    "id": 13,
+    "User Name": "Kevin Viju",
+    "Star Rating": "5",
+    "Title": "Perfect product!",
+    "Review": "I have been using it now for almost an year and I loved it. So comfortable and no complaints. Easy to install.",
+    "Upvote": "1",
+    "Downvote": "0"
+  },
+  {
+    "id": 14,
+    "User Name": "Flipkart Customer",
+    "Star Rating": "5",
+    "Title": "Fabulous!",
+    "Review": "Very comfortable",
+    "Upvote": "1",
+    "Downvote": "0"
+  },
+  {
+    "id": 15,
+    "User Name": "GOPA KUMAR BL",
+    "Star Rating": "5",
+    "Title": "Brilliant",
+    "Review": "Super chair",
+    "Upvote": "1",
+    "Downvote": "0"
+  },
+  {
+    "id": 16,
+    "User Name": "Yadala Nagendra",
+    "Star Rating": "5",
+    "Title": "Terrific purchase",
+    "Review": "Worth for money",
+    "Upvote": "2",
+    "Downvote": "0"
+  },
+  {
+    "id": 17,
+    "User Name": "Maamuddu SIVA SANKAR",
+    "Star Rating": "3",
+    "Title": "Does the job",
+    "Review": "Reclainer is not functioning",
+    "Upvote": "0",
+    "Downvote": "2"
+  },
+  {
+    "id": 18,
+    "User Name": "Sunny Mehta",
+    "Star Rating": "4",
+    "Title": "Highly recommended",
+    "Review": "Excellent Recliner with good quality fabric used",
+    "Upvote": "0",
+    "Downvote": "1"
+  },
+  {
+    "id": 19,
+    "User Name": "Flipkart Customer",
+    "Star Rating": "5",
+    "Title": "Nice product",
+    "Review": "Amazing",
+    "Upvote": "2",
+    "Downvote": "0"
+  },
+  {
+    "id": 20,
+    "User Name": "Sushama Kadam Rathi",
+    "Star Rating": "3",
+    "Title": "Super!",
+    "Review": "Excellent product atleast as of now i.e. after the second day of delivering the product. Comfortable and pet friendly",
+    "Upvote": "0",
+    "Downvote": "1"
+  }
+]
